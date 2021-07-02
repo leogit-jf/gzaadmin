@@ -1,0 +1,33 @@
+{
+    "name": "gzaadmin/laravel-admin-ext-grid",
+    "description": "description...",
+    "type": "library",
+    "keywords": ["laravel-admin", "extension"],
+    "homepage": "https://github.com/liaoshengping/laravel-admin-ext-rowaction",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "liaosp",
+            "email": "1194008361@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "encore/laravel-admin": "~1.6"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "GzaAdmin\\Admin\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "GzaAdmin\\Admin\\GzaAdminServiceProvider"
+            ]
+        }
+    }
+}
